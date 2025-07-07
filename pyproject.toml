@@ -8,6 +8,7 @@ dependencies = [
     "matplotlib>=3.10.3",
     "qiskit[visualization]>=2.1.0",
     "qiskit-ibm-runtime>=0.40.1",
+    "qiskit-aer>=0.17.1",
 ]
 
 [dependency-groups]
