@@ -17,7 +17,14 @@ dev = [
     "poethepoet>=0.36.0",
     "pylatexenc>=2.10",
     "ruff>=0.12.2",
+    "qc-grader[qiskit,jupyter]",
 ]
+
+[tool.uv.sources]
+qc-grader = { git = "https://github.com/qiskit-community/Quantum-Challenge-Grader.git" }
+
+[tool.ruff.lint]
+ignore = ["E402", "E741", "F401", "F811", "F402"]
 
 [tool.poe.tasks]
 format = "uv run ruff format"
