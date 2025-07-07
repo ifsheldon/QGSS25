@@ -13,3 +13,4 @@ This project uses `poethepoet` to make running commands easy:
 * `poe format`: format your code
 * `poe lab`: run jupyter lab
 * `poe check`: use ruff to check if your code has any issues or errors
+* `poe update_submodules`: update the code from official repo `qgss-2025`

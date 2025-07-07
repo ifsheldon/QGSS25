@@ -30,3 +30,4 @@ ignore = ["E402", "E741", "F401", "F811", "F402"]
 format = "uv run ruff format"
 lab = "uv run jupyter lab"
 check = "uv run ruff check"
+update_submodules = "git submodule update --init --recursive"
