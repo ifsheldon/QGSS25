@@ -21,3 +21,4 @@ dev = [
 [tool.poe.tasks]
 format = "uv run ruff format"
 lab = "uv run jupyter lab"
+check = "uv run ruff check"
