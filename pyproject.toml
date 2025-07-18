@@ -9,6 +9,9 @@ dependencies = [
     "qiskit[visualization]>=2.1.0",
     "qiskit-ibm-runtime>=0.40.1",
     "qiskit-aer>=0.17.1",
+    "pyscf>=2.9.0",
+    "ffsim>=0.0.57",
+    "qiskit-addon-sqd>=0.11.0",
 ]
 
 [dependency-groups]
